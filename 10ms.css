@@ -1,0 +1,650 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    width: 1365px;
+}
+.header-section{
+
+    width: 100%;
+    height: 60px;
+    background: white;
+    border-bottom: 1px solid rgb(255, 58, 58);
+}
+
+.logo{
+    width: 200px;
+    height: 50px;
+    margin-top: 9px;
+}
+img{
+    width: 140px;
+    height: 36px;
+}
+
+.button {
+    margin-top: 9px;
+    margin-left: 72px;
+}
+.btn01:hover{
+    color: white;
+    background: rgb(255 65 68);
+    border:1px solid rgb(255 65 68));
+}
+.btn01{
+    color: rgb(255 65 68);
+     background: white;
+     border: 1px solid rgb(255 65 68);
+}
+.btn02:hover {
+    color: rgb(255 65 68);
+    background: white;
+    border: 1px solid rgb(255, 58, 58);
+}
+.btn02{
+    color: white;
+    background:  rgb(255, 58, 58);
+    border:1px solid rgb(255, 58, 58);
+}
+
+
+/*Slider section*/
+
+.slider-section {
+    padding: 342px 0px;
+    width: 100%;
+    background: url(./img/search-background.png) no-repeat center center;
+    position: relative;
+}
+
+    h5 {
+
+        margin-left: 300px;
+        margin-top: -300px;
+        line-height: 30px;
+    }
+
+    .Funimg img {
+        width: 84px;
+        height: 84px;
+        margin-left: 32px;
+        margin-top: 27px;
+    }
+    .Funimg{
+      width: 100%;
+      height: 163px;
+      margin-top: 5px;
+     
+    }
+    .Funimg p {
+        color: white;
+        margin-top: 7px;
+        margin-left: 20px;
+        padding-left: 14px;
+        font-size: 15px;
+    }
+    
+    .funimg1 {
+        width: 150px;
+        height: 150px;
+        display: inline-block;
+        margin-right: 27px;
+        
+        border-radius: 18px;
+        transform: scale(1);
+        transition: 0.4s;
+
+    }
+   
+    .funimg1:hover{
+        transform: scale(1.2);
+        background: #00000026;
+        border-radius: 25px;
+    }
+
+    .right{
+        float: right;
+    }
+    .left{
+        float: left;
+    }
+
+    .search-bar {
+        width: 722px;
+        height: 50px;
+        margin-left: 161px;
+        margin-top: 15px;
+    }
+
+
+    .search-input {
+        padding-top: 12px;
+        padding-bottom: 12px;
+    }
+
+    .search-button a:hover {
+        color: white;
+        background: rgb(255, 58, 58);
+    }
+    
+    .search-button a {
+        text-decoration: none;
+        background: rgb(255, 58, 84);
+        padding-top: 10px;
+        padding-bottom: 10px;
+        padding-right: 18px;
+        padding-left: 18px;
+        border-radius: 6px;
+        color: white;
+    }
+    .search-button:hover {
+        background: white;
+        border: none;
+    }
+    .search-button {
+        background: white;
+        border: none;
+    }
+
+
+
+.dsn-img img {
+    width: 484px;
+    height: 320px;
+    display: inline-block;
+    position: absolute;
+    left: 466px;
+    top: 506px;
+}
+.design-img{
+   width: 484px;
+   height: 320px;
+
+}
+
+/*alu vorta section*/
+/*.slider-section{
+    background:#faf5f2 ;
+}*/ 
+.design {
+    background: #faf5f2;
+}
+.upper-slider{
+    background: #faf5f2;
+}
+.alu{
+     width: 620px;
+     height: 620px;
+
+
+}
+.alu-main img {
+    width: 110%;
+    height: 110%;
+    margin-top: -230px;
+    margin-left: 87px;
+    transform: rotate(45deg);
+    position: relative;
+}
+
+.alu1 img {
+    width: 284px;
+    height: 532px;
+    display: inline-block;
+    position: absolute;
+    top: 885px;
+    left: 765px;
+    transform: rotate(16deg);
+}
+.alu2 img {
+    width: 284px;
+    height: 518px;
+    display: inline-block;
+    position: absolute;
+    top: 872px;
+    left: 1054px;
+    transform: rotate(16deg);
+}
+.appText h1 {
+    font-weight: 600;
+    color: #ff0051e0;
+    margin-bottom: -15px;
+}
+.appText p {
+    color: gray;
+    font-size: 14px;
+    font-weight: 500;
+    margin-bottom: -5px;
+}
+.appText img {
+    width: 171px;
+    height: 53px;
+}
+
+.appText {
+    margin-top: -70px;
+}
+
+.moon {
+    width: 170px;
+    height: 170px;
+    margin-top: -100px;
+    margin-left: -104px;
+}
+.moon1{
+    width: 100%;
+    height: 100%;
+}
+.moon1 img {
+    width: 160px;
+    height: 160px;
+}
+/*free-video-section*/
+.free-video-section{
+    margin-top: 100px;
+}
+
+.video1 img:hover{
+    transform: scale(1.5);
+}
+.video1 img{
+    width: 324px;
+    height: 164px;
+    border-radius: 20px;
+    margin-left: -91px;
+    transform: scale(1);
+    transition: .8s;
+}
+.video2 img:hover{
+    transform: scale(1.5);
+}
+.video2 img {
+    width: 324px;
+    height: 164px;
+    border-radius: 20px;
+    margin-left: 2px;
+    transform: scale(1);
+    transition: .8s;    
+}
+.free-text {
+    margin-left: 70px;
+}
+.free-text h1{
+    font-weight: 600;
+}
+.free-text p {
+    color: gray;
+    font-size: 14px;
+}
+.btn-download {
+    color: white;
+    font-weight: 300;
+    background: #ff3d3e;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 8px;
+    padding-left: 8px;
+    border: none;
+    border-radius: 6px;
+    font-size: 15px;
+}
+.fvdo{
+position: relative;
+}
+.afvdo img {
+    width: 100px;
+    height: 66px;
+    margin-left: 281px;
+    margin-top: -323px;
+}
+.bfvdo img {
+    position: absolute;
+    width: 167px;
+    height: 200px;
+    top: 1889px;
+    left: 10px;
+}
+.fvdo img:hover{
+     transform: scale(1.5);
+}
+.fvdo img{
+    width: 324px;
+    height: 164px;
+    border-radius: 20px;
+    margin-left: 2px;  
+    transform: scale(1);
+    transition: .8s;      
+}
+
+.yellowmoon {
+    position: absolute;
+    left: 230px;
+    top: 64px;
+    z-index: -1;
+}
+.yellowmoon img{
+    width: 210px;
+    height: 210px;
+}
+.Alu{
+
+
+}
+.Alu img {
+    margin-top: 50px;
+    margin-left: 145px;
+
+}
+.Alu2 {
+    display: inline-block;
+    position: absolute;
+    top: px;
+    margin-top: -630px;
+    margin-left: 340px;
+}
+
+.Alu2 img {
+
+
+    width: 350px;
+    height: 600px;
+    transform: rotate(0deg);
+
+}
+.Alu1 {
+    display: inline-block;
+    margin-top: -569px;
+    position: absolute;
+    right: 387px;
+    z-index: 10;
+}
+.Alu1 img {
+
+
+    width: 350px;
+    height: 600px;
+    transform: rotate(0deg);
+
+    z-index: 1;
+}
+.moon2 img{
+
+}
+.quize-text {
+    margin-top: 185px;
+}
+.quize-text h1{
+ font-weight: 600;
+}
+.quize-text p{
+    color: gray;
+    font-size: 15px;
+}
+.quize-text img {
+    margin-left: -118px;
+    margin-bottom: -161px;
+    width: 200px;
+    height: 200px;
+}
+.moon2 img{
+     width: 200px !important;
+     height: 200px !important;
+}
+
+
+
+/*learn-section*/
+
+.learn-section{
+    margin-top: 200px;
+    background: #faf5f2;   
+}
+.learn-text h1 {
+    padding-bottom: 5px;
+    margin-top: 50px;
+    text-align: center;
+    font-weight: 600;
+    font-size: 36px;
+}
+.baal {
+    width: 90px;
+    height: 6px;
+    background: rgb(255, 29, 67);
+    border-radius: 10px;
+    text-align: center;
+    margin-left: 425px;
+}
+
+
+.skill:hover{
+  transform: scale(1.3);
+}
+.skill {
+    transform: scale(1);
+    transition: 1s;
+}
+.skill img{
+    width: 100px;
+    height: 100px;
+}
+.bal img {
+    width: 200px;
+    height: 200px;
+    margin-left: 100px;
+}
+.dotted img {
+    width: 200px;
+    height: 200px;
+    margin-left: -200px;
+}
+.skill-text:hover{
+    color: black;
+
+}
+.skill-text p{
+    color: rgb(255, 29, 67);
+}
+.upor {
+    margin-top: 20px;
+    margin-bottom: 50px;
+}
+/*section*/
+.Digital-book-section{
+    margin-top: 100px;
+    margin-bottom: 200px;
+}
+.downloadme{
+    width: 300px;
+    height: 370px;
+}
+.card img {
+    width: 130px;
+    height: 200px;
+    margin-left: 75px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+.card {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    min-width: 0;
+    word-wrap: break-word;
+    background-color: #fff;
+    background-clip: border-box;
+    border: 1px solid rgba(0,0,0,.125);
+    box-shadow: 2px 2px 6px 3px #c5c5c5;
+    border-radius: .25rem;
+}
+.card-body{
+
+}
+.card-body h5{
+
+}
+.card-title{
+
+}
+.card-text{
+
+}
+
+
+
+.Cardbody h4{
+    font-weight: 600;
+    font-size: 19px;
+
+}
+.Cardbody {
+    text-align: center;
+    padding-bottom: 20px;
+}
+.butam{
+
+}
+.Cardbody .btn-primary{
+    color: #fff;
+    background-color: #45C881;
+    border-color: #45C881;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+.card:hover{
+    border: 1px solid rrgb(255, 29, 67);
+}
+
+.digibook h1{
+       font-weight: 600;
+       margin-bottom: 10px;
+}
+.digibook{
+   text-align: center;
+
+}
+
+.daal-vaat {
+    width: 80px;
+    margin-left: 600px;
+    height: 6px;
+    background: rgb(255, 29, 67);
+    border-radius: 40px;
+    margin-bottom: 50px;
+}
+.resources{
+    margin-top: 200px;
+}
+.re-text{
+   text-align: center;
+}
+.re-text p{
+    color: gray;
+    text-align: center;
+}
+.re-text h1{
+    font-weight: 600;
+    margin-bottom: 10px;
+    text-align: center;
+}
+.re-bar{
+    width: 80px;
+    margin-left:400px;
+    height: 6px;
+    background: rgb(255, 29, 67);
+    border-radius: 40px;
+    margin-bottom: 50px;
+}
+.programs{
+
+}
+.prog-img img{
+ width: 76px;
+ height: 76px;
+}
+.futa-1 img{
+
+}
+.futa-2 img {
+    margin-left: 1100px;
+    margin-top: -258px;
+    width: 100px;
+    height: 100px;
+}
+.sesh-text h1{
+    font-weight: 600;
+
+    margin-bottom: 22px;
+    text-align: center;
+    padding-top: 80px;
+}
+.sesh-bar{
+    width: 80px;
+    margin-left:400px;
+    height: 6px;
+    background: rgb(255, 29, 67);
+    border-radius: 40px;
+    margin-bottom: 50px;
+}
+.achivement-section{
+
+   padding-bottom: 75px;
+    background: #faf5f2;
+}
+.achivement {
+    width: 235px;
+    height: 215px;
+    background: white;
+    /* border: 1px solid black; */
+    border-radius: 10px;
+    margin-top: 18px;
+}
+.achivement img {
+    width: 205px;
+    height: 125px;
+    margin-top: 50px;
+    margin-left: 15px;
+}
+
+.seshgol img {
+    width: 200px;
+    height: 200px;
+    margin-left: -240px;
+}
+.classroom{
+    background: #faf5f2;
+
+}
+.classroom-img{
+    width: 480px;
+    height: 214px;
+} 
+.classroom-img img {
+    width: 100%;
+    height: 100%;
+    margin-top: 136px;
+    margin-left: -95px;
+}
+.footer-section{
+    background: url(./img/footer.png) center center;
+    padding: 129px 0px;
+}
+.whitelogo p{
+    color: white;
+    padding-top: 25px;
+}
+.about p{
+    color: white;
+}
+.connect p{
+    color: white;
+}
+.upper-footer{
+    background: #faf5f2;
+
+}
+.div{
+    text-align: center;
+    color: white;
+    padding-top: 30px;
+}
